@@ -1,0 +1,6 @@
+{
+  "name": "HealthGluco",
+  "description": "Production-ready healthcare SaaS platform for XGBoost-powered diabetes risk prediction, longitudinal tracking, and clinical recommendations",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

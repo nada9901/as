@@ -1,0 +1,453 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "email": "admin@healthgluco.ai",
+      "full_name": "Dr. Tariq Al-Ghamdi (Chief Clinical Consultant - KSA MOH)",
+      "password_hash": "$2b$12$EzcHu5vk/9DjeL8iZBwTKuFBhuS7nuC.Nbmhzavf5KmvROA2HWxS2",
+      "role": "Administrator",
+      "age_group": 8,
+      "sex": 1,
+      "bmi": 24.1,
+      "is_active": true,
+      "is_verified": true,
+      "created_at": "2026-06-02T02:17:43.121Z",
+      "last_login": "2026-08-01T03:24:05.709Z"
+    },
+    {
+      "id": "usr_patient_001",
+      "email": "patient@healthgluco.ai",
+      "full_name": "Faisal Al-Otaibi (Riyadh, KSA)",
+      "password_hash": "$2b$12$EzcHu5vk/9DjeL8iZBwTKuFBhuS7nuC.Nbmhzavf5KmvROA2HWxS2",
+      "role": "Patient",
+      "age_group": 9,
+      "sex": 1,
+      "bmi": 31.4,
+      "is_active": true,
+      "is_verified": true,
+      "created_at": "2026-06-17T02:17:43.121Z",
+      "last_login": "2026-08-01T03:24:03.323Z"
+    },
+    {
+      "id": "usr_patient_002",
+      "email": "noura.aldosari@gmail.com",
+      "full_name": "Noura Al-Dosari (Makkah Province, KSA)",
+      "password_hash": "$2b$10$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
+      "role": "Patient",
+      "age_group": 7,
+      "sex": 0,
+      "bmi": 26.2,
+      "is_active": true,
+      "is_verified": true,
+      "created_at": "2026-07-02T02:17:43.121Z",
+      "last_login": "2026-07-31T02:17:43.121Z"
+    },
+    {
+      "id": "usr_1785550724940",
+      "email": "asaa@sa",
+      "full_name": "asaa",
+      "password_hash": "$2b$10$01qWVlJzaT4LYsEq6UjFIuUh00DsT2fOvZ.he7gu3AbcE5JjckGR.",
+      "role": "Patient",
+      "age_group": 5,
+      "sex": 1,
+      "bmi": 26.5,
+      "is_active": true,
+      "is_verified": true,
+      "created_at": "2026-08-01T02:18:45.013Z",
+      "last_login": "2026-08-01T02:18:45.014Z"
+    },
+    {
+      "id": "usr_1785551659772",
+      "email": "asa@asa",
+      "full_name": "ahs",
+      "password_hash": "$2b$10$D3mdLFJhGtOTF.RdSfz.3udBKJ8ABJOlK3d8bp/CJs4dqcJKHkMgS",
+      "role": "Patient",
+      "age_group": 5,
+      "sex": 1,
+      "bmi": 26.5,
+      "is_active": true,
+      "is_verified": true,
+      "created_at": "2026-08-01T02:34:19.846Z",
+      "last_login": "2026-08-01T02:34:25.255Z"
+    },
+    {
+      "id": "usr_1785554663137",
+      "email": "asas@asss",
+      "full_name": "as",
+      "password_hash": "$2b$10$TFMseOrWNCQcA3MuQ7H1X.SnuizNIgckfn4Q3aDP4DaYdUa4soQlq",
+      "role": "Patient",
+      "age_group": 5,
+      "sex": 1,
+      "bmi": 26.5,
+      "is_active": true,
+      "is_verified": true,
+      "created_at": "2026-08-01T03:24:23.213Z",
+      "last_login": "2026-08-01T03:24:28.408Z"
+    }
+  ],
+  "predictions": [
+    {
+      "id": "pred_001",
+      "user_id": "usr_patient_001",
+      "bmi": 32.8,
+      "high_bp": 1,
+      "high_chol": 1,
+      "chol_check": 1,
+      "stroke": 0,
+      "heart_disease_or_attack": 0,
+      "smoker": 1,
+      "hvy_alcohol_consump": 0,
+      "phys_activity": 0,
+      "fruits": 0,
+      "veggies": 1,
+      "ment_hlth": 5,
+      "phys_hlth": 4,
+      "diff_walk": 0,
+      "gen_hlth": 4,
+      "sex": 1,
+      "age": 9,
+      "education": 5,
+      "income": 6,
+      "any_healthcare": 1,
+      "no_docbc_cost": 0,
+      "probability": 68.4,
+      "prediction_class": 1,
+      "risk_tier": "High Risk",
+      "color_code": "red",
+      "top_risk_factors": [
+        "BMI (32.8 kg/m²)",
+        "High Blood Pressure",
+        "Physical Inactivity",
+        "High Cholesterol"
+      ],
+      "recommendations": [
+        "Your BMI indicates overweight/obesity. Aim for a BMI of 18.5-24.9 through balanced nutrition and regular exercise.",
+        "High blood pressure detected. Monitor regularly, reduce sodium intake, and consult a healthcare provider.",
+        "Physical inactivity is a major risk factor. Aim for 150 minutes of moderate exercise weekly.",
+        "High cholesterol detected. Focus on heart-healthy fats, soluble fiber, and regular clinical follow-ups."
+      ],
+      "created_at": "2026-07-02T02:17:43.121Z"
+    },
+    {
+      "id": "pred_002",
+      "user_id": "usr_patient_001",
+      "bmi": 31.4,
+      "high_bp": 1,
+      "high_chol": 1,
+      "chol_check": 1,
+      "stroke": 0,
+      "heart_disease_or_attack": 0,
+      "smoker": 0,
+      "hvy_alcohol_consump": 0,
+      "phys_activity": 1,
+      "fruits": 1,
+      "veggies": 1,
+      "ment_hlth": 2,
+      "phys_hlth": 1,
+      "diff_walk": 0,
+      "gen_hlth": 3,
+      "sex": 1,
+      "age": 9,
+      "education": 5,
+      "income": 6,
+      "any_healthcare": 1,
+      "no_docbc_cost": 0,
+      "probability": 34.2,
+      "prediction_class": 1,
+      "risk_tier": "Moderate Risk",
+      "color_code": "orange",
+      "top_risk_factors": [
+        "BMI (31.4 kg/m²)",
+        "High Blood Pressure",
+        "High Cholesterol"
+      ],
+      "recommendations": [
+        "Your BMI indicates overweight/obesity. Aim for a BMI of 18.5-24.9 through balanced nutrition and regular exercise.",
+        "High blood pressure detected. Monitor regularly, reduce sodium intake, and consult a healthcare provider.",
+        "High cholesterol detected. Focus on heart-healthy fats, soluble fiber, and regular clinical follow-ups."
+      ],
+      "created_at": "2026-07-25T02:17:43.121Z"
+    },
+    {
+      "id": "pred_003",
+      "user_id": "usr_patient_002",
+      "bmi": 24.1,
+      "high_bp": 0,
+      "high_chol": 0,
+      "chol_check": 1,
+      "stroke": 0,
+      "heart_disease_or_attack": 0,
+      "smoker": 0,
+      "hvy_alcohol_consump": 0,
+      "phys_activity": 1,
+      "fruits": 1,
+      "veggies": 1,
+      "ment_hlth": 0,
+      "phys_hlth": 0,
+      "diff_walk": 0,
+      "gen_hlth": 2,
+      "sex": 0,
+      "age": 7,
+      "education": 6,
+      "income": 7,
+      "any_healthcare": 1,
+      "no_docbc_cost": 0,
+      "probability": 8.4,
+      "prediction_class": 0,
+      "risk_tier": "Low Risk",
+      "color_code": "green",
+      "top_risk_factors": [
+        "No dominant high-risk factors identified"
+      ],
+      "recommendations": [
+        "Great job maintaining a healthy lifestyle! Continue regular aerobic exercise and balanced Mediterranean-style nutrition.",
+        "Schedule routine annual screenings to keep cholesterol and glucose parameters within optimal clinical targets."
+      ],
+      "created_at": "2026-07-29T02:17:43.121Z"
+    }
+  ],
+  "recommendationHistory": [
+    {
+      "id": "rec_pred_001",
+      "prediction_id": "pred_001",
+      "user_id": "usr_patient_001",
+      "top_risk_factors": [
+        "BMI (32.8 kg/m²)",
+        "High Blood Pressure",
+        "Physical Inactivity",
+        "High Cholesterol"
+      ],
+      "recommendations": [
+        "Your BMI indicates overweight/obesity. Aim for a BMI of 18.5-24.9 through balanced nutrition and regular exercise.",
+        "High blood pressure detected. Monitor regularly, reduce sodium intake, and consult a healthcare provider.",
+        "Physical inactivity is a major risk factor. Aim for 150 minutes of moderate exercise weekly.",
+        "High cholesterol detected. Focus on heart-healthy fats, soluble fiber, and regular clinical follow-ups."
+      ],
+      "created_at": "2026-07-02T02:17:43.121Z"
+    },
+    {
+      "id": "rec_pred_002",
+      "prediction_id": "pred_002",
+      "user_id": "usr_patient_001",
+      "top_risk_factors": [
+        "BMI (31.4 kg/m²)",
+        "High Blood Pressure",
+        "High Cholesterol"
+      ],
+      "recommendations": [
+        "Your BMI indicates overweight/obesity. Aim for a BMI of 18.5-24.9 through balanced nutrition and regular exercise.",
+        "High blood pressure detected. Monitor regularly, reduce sodium intake, and consult a healthcare provider.",
+        "High cholesterol detected. Focus on heart-healthy fats, soluble fiber, and regular clinical follow-ups."
+      ],
+      "created_at": "2026-07-25T02:17:43.121Z"
+    },
+    {
+      "id": "rec_pred_003",
+      "prediction_id": "pred_003",
+      "user_id": "usr_patient_002",
+      "top_risk_factors": [
+        "No dominant high-risk factors identified"
+      ],
+      "recommendations": [
+        "Great job maintaining a healthy lifestyle! Continue regular aerobic exercise and balanced Mediterranean-style nutrition.",
+        "Schedule routine annual screenings to keep cholesterol and glucose parameters within optimal clinical targets."
+      ],
+      "created_at": "2026-07-29T02:17:43.121Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "user_id": "usr_1785554663137",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Patient session initiated",
+      "id": "aud_1785554668410_933",
+      "timestamp": "2026-08-01T03:24:28.410Z"
+    },
+    {
+      "user_id": "usr_1785554663137",
+      "action": "USER_REGISTERED",
+      "endpoint": "/api/v1/auth/register",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Registered account with role Patient",
+      "id": "aud_1785554663213_734",
+      "timestamp": "2026-08-01T03:24:23.213Z"
+    },
+    {
+      "user_id": "usr_admin_001",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Administrator session initiated",
+      "id": "aud_1785554645710_215",
+      "timestamp": "2026-08-01T03:24:05.710Z"
+    },
+    {
+      "user_id": "usr_patient_001",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Patient session initiated",
+      "id": "aud_1785554643325_542",
+      "timestamp": "2026-08-01T03:24:03.325Z"
+    },
+    {
+      "user_id": "usr_1785551659772",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Patient session initiated",
+      "id": "aud_1785551665256_575",
+      "timestamp": "2026-08-01T02:34:25.256Z"
+    },
+    {
+      "user_id": "usr_1785551659772",
+      "action": "USER_REGISTERED",
+      "endpoint": "/api/v1/auth/register",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Registered account with role Patient",
+      "id": "aud_1785551659846_259",
+      "timestamp": "2026-08-01T02:34:19.846Z"
+    },
+    {
+      "user_id": "usr_patient_001",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Patient session initiated",
+      "id": "aud_1785551634958_255",
+      "timestamp": "2026-08-01T02:33:54.959Z"
+    },
+    {
+      "user_id": "usr_1785550724940",
+      "action": "USER_REGISTERED",
+      "endpoint": "/api/v1/auth/register",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Registered account with role Patient",
+      "id": "aud_1785550725014_63",
+      "timestamp": "2026-08-01T02:18:45.014Z"
+    },
+    {
+      "user_id": "usr_admin_001",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Administrator session initiated",
+      "id": "aud_1785550692744_570",
+      "timestamp": "2026-08-01T02:18:12.744Z"
+    },
+    {
+      "user_id": "usr_admin_001",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Administrator session initiated",
+      "id": "aud_1785550690895_307",
+      "timestamp": "2026-08-01T02:18:10.895Z"
+    },
+    {
+      "user_id": "usr_patient_001",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Patient session initiated",
+      "id": "aud_1785550688786_70",
+      "timestamp": "2026-08-01T02:18:08.786Z"
+    },
+    {
+      "user_id": "usr_patient_001",
+      "action": "LOGIN_SUCCESS",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "127.0.0.1",
+      "status": "SUCCESS",
+      "details": "Patient session initiated",
+      "id": "aud_1785550685629_342",
+      "timestamp": "2026-08-01T02:18:05.629Z"
+    },
+    {
+      "id": "aud_01",
+      "user_id": "usr_admin_001",
+      "action": "ADMIN_LOGIN",
+      "endpoint": "/api/v1/auth/login",
+      "ip_address": "10.240.0.12",
+      "status": "SUCCESS",
+      "timestamp": "2026-07-30T02:17:43.121Z",
+      "details": "Administrator session authenticated"
+    },
+    {
+      "id": "aud_02",
+      "user_id": "usr_patient_001",
+      "action": "PREDICTION_COMPLETED",
+      "endpoint": "/api/v1/predict",
+      "ip_address": "172.16.0.4",
+      "status": "SUCCESS",
+      "timestamp": "2026-07-25T02:17:43.121Z",
+      "details": "Model XGBoost v1.0.0 inference executed"
+    },
+    {
+      "id": "aud_03",
+      "user_id": "usr_patient_001",
+      "action": "PROFILE_UPDATED",
+      "endpoint": "/api/v1/users/profile",
+      "ip_address": "172.16.0.4",
+      "status": "SUCCESS",
+      "timestamp": "2026-07-31T02:17:43.121Z",
+      "details": "Patient demographic parameters synchronized"
+    }
+  ],
+  "systemSettings": [
+    {
+      "id": "set_01",
+      "setting_key": "ml_decision_threshold",
+      "setting_value": "0.10",
+      "description": "Optimal clinical XGBoost decision threshold for Saudi Arabia MOH high medical sensitivity (10% cutoff)",
+      "updated_at": "2026-07-02T02:17:43.121Z"
+    },
+    {
+      "id": "set_02",
+      "setting_key": "model_version",
+      "setting_value": "1.0.0-XGBoost-KSA-BRFSS",
+      "description": "Serialized 21-feature gradient boosted tree artifact adapted for KSA screening epidemiology",
+      "updated_at": "2026-07-02T02:17:43.121Z"
+    },
+    {
+      "id": "set_03",
+      "setting_key": "clinical_disclaimer_required",
+      "setting_value": "true",
+      "description": "Require mandatory patient disclaimer acknowledgment before PDF report download under KSA Health Council rules",
+      "updated_at": "2026-07-02T02:17:43.121Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_01",
+      "user_id": "usr_patient_001",
+      "title": "New Clinical Assessment Ready",
+      "message": "Your recent glycemic risk screening score was calculated at Moderate Risk (34.2%). Review clinical recommendations.",
+      "is_read": false,
+      "notification_type": "CLINICAL_ALERT",
+      "created_at": "2026-07-25T02:17:43.121Z"
+    },
+    {
+      "id": "notif_02",
+      "user_id": "usr_patient_001",
+      "title": "Quarterly Screening Reminder",
+      "message": "Regular monitoring is key to diabetes prevention. Consider completing a new screening this month.",
+      "is_read": true,
+      "notification_type": "SCREENING_REMINDER",
+      "created_at": "2026-07-30T02:17:43.121Z"
+    }
+  ]
+}

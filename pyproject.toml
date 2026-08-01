@@ -1,0 +1,34 @@
+[project]
+name = "healthgluco-backend"
+version = "1.0.0"
+description = "HealthGluco - Award-winning healthcare SaaS platform for XGBoost-powered diabetes risk prediction (FastAPI/Python 3.12)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.4.0",
+    "sqlalchemy>=2.0.32",
+    "alembic>=1.13.2",
+    "psycopg2-binary>=2.9.9",
+    "asyncpg>=0.29.0",
+    "pyjwt>=2.9.0",
+    "bcrypt>=4.2.0",
+    "passlib[bcrypt]>=1.7.4",
+    "python-multipart>=0.0.9",
+    "numpy>=1.26.4",
+    "scipy>=1.13.1",
+    "scikit-learn>=1.5.1",
+    "xgboost>=2.1.1",
+    "pytest>=8.3.2",
+    "httpx>=0.27.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["app/tests"]
+python_files = "test_*.py"
