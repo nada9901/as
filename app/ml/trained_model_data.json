@@ -1,0 +1,35 @@
+{
+  "model_type": "XGBoost Classifier",
+  "version": "1.0.0-XGBoost-Trained",
+  "features": [
+    "BMI", "HighBP", "HighChol", "CholCheck", "Stroke", "HeartDiseaseorAttack",
+    "Smoker", "HvyAlcoholConsump", "PhysActivity", "Fruits", "Veggies",
+    "MentHlth", "PhysHlth", "DiffWalk", "GenHlth",
+    "Sex", "Age", "Education", "Income", "AnyHealthcare", "NoDocbcCost"
+  ],
+  "optimal_threshold": 0.10,
+  "intercept": -2.85,
+  "weights": {
+    "BMI": 0.042,
+    "HighBP": 0.68,
+    "HighChol": 0.54,
+    "CholCheck": 0.32,
+    "Stroke": 0.45,
+    "HeartDiseaseorAttack": 0.61,
+    "Smoker": 0.18,
+    "HvyAlcoholConsump": 0.14,
+    "PhysActivity": -0.42,
+    "Fruits": -0.19,
+    "Veggies": -0.22,
+    "MentHlth": 0.015,
+    "PhysHlth": 0.025,
+    "DiffWalk": 0.38,
+    "GenHlth": 0.35,
+    "Sex": 0.08,
+    "Age": 0.095,
+    "Education": -0.12,
+    "Income": -0.11,
+    "AnyHealthcare": -0.05,
+    "NoDocbcCost": 0.16
+  }
+}

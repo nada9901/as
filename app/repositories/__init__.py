@@ -1,0 +1,1 @@
+from app.repositories.all_repositories import UserRepository, PredictionRepository, AuditRepository
